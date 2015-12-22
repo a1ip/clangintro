@@ -36,7 +36,7 @@
 
 <tr>
 
-<td align="center">**.**</td>
+<td align="center">.</td>
 
 <td>Выделение элемента записи</td>
 
@@ -124,7 +124,7 @@
 
 <tr>
 
-<td align="center">\*</td>
+<td align="center">*</td>
 
 <td>Умножение</td>
 
