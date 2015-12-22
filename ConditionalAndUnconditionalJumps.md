@@ -17,7 +17,7 @@ switch (выражение)
                         break;
 
     case константа_2:  операторы_2;
-                           break;
+                        break;
     ........           ........
     default:           операторы_default;
 }
