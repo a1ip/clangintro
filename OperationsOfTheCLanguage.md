@@ -100,7 +100,7 @@
 
 <tr>
 
-<td align="center">\*</td>
+<td align="center">*</td>
 
 <td>Обращение по адресу</td>
 
