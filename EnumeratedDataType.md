@@ -3,7 +3,7 @@
 Перечислимый тип данных предназначен для описания объектов из некоторого заданного множества. Он задается ключевым словом `enum`. Рассморим пример:
 
 ```c
-enum seasons (spring, summer, autumn, winter);
+enum seasons {spring, summer, autumn, winter};
 ```
 
 Здесь введен новый тип данных `seasons`. Теперь можно определить переменные этого типа:
@@ -15,7 +15,7 @@ enum seasons а, b, с;
 Каждая из них (`а`, `b`, `c`) может принимать одно из четырех значений: `spring`, `summer`, `autumn` и `winter`. Эти переменные можно было определить сразу при описании типа:
 
 ```c
-enum seasons (spring, summer, autumn, winter) a, b, с;
+enum seasons {spring, summer, autumn, winter} a, b, с;
 ```
 
 Рассмотрим еще один пример:
@@ -29,7 +29,7 @@ enum days {mon, tues, wed, thur, fri, sat, sun} my_week;
 Можно присвоить константам определенные значения целого типа (именам, не имеющим их, будут, как и раньше, назначены значения предыдущих констант, увеличенные на единицу). Например:
 
 ```c
-enum days (man=5, tues=8, wed=10, thur, fri, sat, sun} my_week;
+enum days {man=5, tues=8, wed=10, thur, fri, sat, sun} my_week;
 ```
 
 После этого `mon=5`, `tues=8`, `wed=10`, `thur=11`, `fri=12`, `sat=13`, `sun=14`\.
@@ -37,5 +37,5 @@ enum days (man=5, tues=8, wed=10, thur, fri, sat, sun} my_week;
 Тип `enum` можно использовать для задания констант `true=1` и `false=0`, например:
 
 ```c
-enum t_f (false, true) а, b;
+enum t_f {false, true} а, b;
 ```
