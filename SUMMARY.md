@@ -14,7 +14,7 @@
     * [Преобразование типов](ConversionOfTypes.md)
     * [Указатели и операции с ними](Pointers.md)
     * [Операторы цикла](OperatorsOfTheCycle.md)
-    * [Операторы условных и безусловных переходов](OperatorsOfConditionalAndnUconditionalJumps.md)
+    * [Операторы условных и безусловных переходов](ConditionalAndUnconditionalJumps.md)
 * Структурированные типы данных
     * [Массивы](Arrays.md)
     * [Строки символов](StringsOfCharacters.md)
