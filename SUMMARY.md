@@ -12,7 +12,7 @@
 * Операции и операторы
     * [Операции языка Си](OperationsOfTheCLanguage.md)
     * [Преобразование типов](ConversionOfTypes.md)
-    * [Указатели и операции с ними](PointersAndOperationsWithThem.md)
+    * [Указатели и операции с ними](Pointers.md)
     * [Операторы цикла](OperatorsOfTheCycle.md)
     * [Операторы условных и безусловных переходов](OperatorsOfConditionalAndnUconditionalJumps.md)
 * Структурированные типы данных
